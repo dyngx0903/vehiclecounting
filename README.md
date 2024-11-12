@@ -50,7 +50,7 @@ Note: remember to change k (filepath) in def capture()
 ### 4.Running Detection with the Trained Model
 To perform object detection with the trained model, use the following command:
 ```bash
-python detect_test.py --weights "path/to/best.pt" --source ".../data/images/..." --img 640 --conf-thres 0.25 --device 0 --save-txt --save-conf
+python detectv2.py --weights "path/to/best.pt" --source ".../data/images/..." --img 640 --conf-thres 0.25 --device 0 --save-txt --save-conf
 
 ```
 ### Output directory
