@@ -1,7 +1,7 @@
 albumentations==1.4.21
 comet_ml==3.47.2
 coremltools==8.0
-Flask==3.0.3
+Flask==3.1.0
 ipython==8.12.3
 matplotlib==3.9.2
 mss==9.0.2
