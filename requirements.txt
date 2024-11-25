@@ -26,7 +26,7 @@ setuptools==65.5.0
 tensorflow==2.18.0
 tensorflow_intel==2.18.0
 tensorflowjs==4.22.0
-tensorrt==10.6.0
+tensorrt==10.6.0.post1
 tflite_runtime==2.14.0
 tflite_support==0.4.4
 thop==0.1.1.post2209072238
