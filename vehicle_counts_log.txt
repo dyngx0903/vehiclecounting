@@ -1,0 +1,85 @@
+Sun Jan  5 01:01:24 2025 - Highway A1: {'person': 1}
+Total counts: {'person': 1}
+Sun Jan  5 01:01:24 2025 - Vo Van Kiet: {'truck': 1, 'stop sign': 2, 'car': 6, 'traffic light': 1}
+Total counts: {'truck': 1, 'stop sign': 2, 'car': 6, 'traffic light': 1}
+Sun Jan  5 01:01:44 2025 - Highway A1: {'person': 1}
+Total counts: {'person': 2}
+Sun Jan  5 01:01:45 2025 - Vo Van Kiet: {'car': 7, 'truck': 1, 'traffic light': 3, 'stop sign': 1}
+Total counts: {'truck': 2, 'stop sign': 3, 'car': 13, 'traffic light': 4}
+Sun Jan  5 01:02:05 2025 - Highway A1: {'person': 1}
+Total counts: {'person': 3}
+Sun Jan  5 01:02:05 2025 - Vo Van Kiet: {'car': 2, 'traffic light': 2, 'stop sign': 1}
+Total counts: {'truck': 2, 'stop sign': 4, 'car': 15, 'traffic light': 6}
+Sun Jan  5 01:02:25 2025 - Highway A1: {'car': 2}
+Total counts: {'person': 3, 'car': 2}
+Sun Jan  5 01:02:26 2025 - Vo Van Kiet: {'stop sign': 2, 'traffic light': 1, 'car': 2, 'truck': 1}
+Total counts: {'truck': 3, 'stop sign': 6, 'car': 17, 'traffic light': 7}
+Sun Jan  5 01:06:41 2025 - Highway A1: {'person': 2, 'motorcycle': 1}
+Total counts: {'person': 2, 'motorcycle': 1}
+Sun Jan  5 01:06:41 2025 - Vo Van Kiet: {'stop sign': 2, 'car': 2, 'truck': 1}
+Total counts: {'stop sign': 2, 'car': 2, 'truck': 1}
+Sun Jan  5 01:07:01 2025 - Highway A1: {'motorcycle': 2, 'truck': 1}
+Total counts: {'person': 2, 'motorcycle': 3, 'truck': 1}
+Sun Jan  5 01:07:01 2025 - Vo Van Kiet: {'car': 7, 'stop sign': 1, 'traffic light': 1}
+Total counts: {'stop sign': 3, 'car': 9, 'truck': 1, 'traffic light': 1}
+Sun Jan  5 01:07:21 2025 - Vo Van Kiet: {'car': 5, 'stop sign': 1, 'traffic light': 3, 'truck': 1}
+Total counts: {'stop sign': 4, 'car': 14, 'truck': 2, 'traffic light': 4}
+Sun Jan  5 01:07:21 2025 - Highway A1: {'truck': 2, 'motorcycle': 2, 'person': 1, 'car': 1}
+Total counts: {'person': 3, 'motorcycle': 5, 'truck': 3, 'car': 1}
+Sun Jan  5 01:07:42 2025 - Vo Van Kiet: {'traffic light': 1, 'car': 2, 'stop sign': 1, 'truck': 1}
+Total counts: {'stop sign': 5, 'car': 16, 'truck': 3, 'traffic light': 5}
+Sun Jan  5 01:07:42 2025 - Highway A1: {'motorcycle': 1, 'person': 2}
+Total counts: {'person': 5, 'motorcycle': 6, 'truck': 3, 'car': 1}
+Sun Jan  5 01:15:24 2025 - Highway A1: {'person': 1, 'motorcycle': 1}
+Total counts: {'person': 1, 'motorcycle': 1}
+Sun Jan  5 01:15:24 2025 - Vo Van Kiet: {'stop sign': 2, 'car': 2, 'truck': 1, 'traffic light': 1}
+Total counts: {'stop sign': 2, 'car': 2, 'truck': 1, 'traffic light': 1}
+Sun Jan  5 01:15:44 2025 - Highway A1: {'car': 1}
+Total counts: {'person': 1, 'motorcycle': 1, 'car': 1}
+Sun Jan  5 01:15:45 2025 - Vo Van Kiet: {'stop sign': 2, 'car': 2, 'truck': 1, 'traffic light': 1}
+Total counts: {'stop sign': 4, 'car': 4, 'truck': 2, 'traffic light': 2}
+Sun Jan  5 01:16:04 2025 - Highway A1: {'truck': 1, 'person': 1}
+Total counts: {'person': 2, 'motorcycle': 1, 'car': 1, 'truck': 1}
+Sun Jan  5 01:16:05 2025 - Vo Van Kiet: {'car': 5, 'stop sign': 2, 'truck': 2, 'traffic light': 1}
+Total counts: {'stop sign': 6, 'car': 9, 'truck': 4, 'traffic light': 3}
+Sun Jan  5 01:16:25 2025 - Highway A1: {'truck': 1, 'person': 1}
+Total counts: {'person': 3, 'motorcycle': 1, 'car': 1, 'truck': 2}
+
+--- Final Total Counts ---
+{}
+Sun Jan  5 01:21:02 2025 - Highway A1: {'motorcycle': 1, 'person': 2}
+Total counts: {'motorcycle': 1, 'person': 2}
+Sun Jan  5 01:21:04 2025 - Vo Van Kiet: {'stop sign': 2, 'car': 1, 'traffic light': 1, 'truck': 2}
+Total counts: {'stop sign': 2, 'car': 1, 'traffic light': 1, 'truck': 2}
+Sun Jan  5 01:21:23 2025 - Highway A1: {}
+Total counts: {'motorcycle': 1, 'person': 2}
+Sun Jan  5 01:21:24 2025 - Vo Van Kiet: {'car': 3, 'person': 1, 'truck': 1, 'stop sign': 2, 'motorcycle': 1, 'traffic light': 1}
+Total counts: {'stop sign': 4, 'car': 4, 'traffic light': 2, 'truck': 3, 'person': 1, 'motorcycle': 1}
+Sun Jan  5 01:23:52 2025 - Highway A1: {'motor': 2}
+Total counts: {'motor': 2}
+Sun Jan  5 01:23:53 2025 - Vo Van Kiet: {'car': 2, 'bus': 2, 'motor': 2}
+Total counts: {'car': 2, 'bus': 2, 'motor': 2}
+Sun Jan  5 01:24:13 2025 - Highway A1: {}
+Total counts: {'motor': 2}
+Sun Jan  5 01:24:13 2025 - Vo Van Kiet: {'car': 1, 'bus': 1}
+Total counts: {'car': 3, 'bus': 3, 'motor': 2}
+Sun Jan  5 01:24:33 2025 - Vo Van Kiet: {'car': 2, 'motor': 3, 'bus': 1}
+Total counts: {'car': 5, 'bus': 4, 'motor': 5}
+Sun Jan  5 01:24:34 2025 - Highway A1: {'motor': 2, 'car': 1, 'bus': 1}
+Total counts: {'motor': 4, 'car': 1, 'bus': 1}
+Sun Jan  5 01:24:53 2025 - Vo Van Kiet: {'car': 4, 'motor': 2}
+Total counts: {'car': 9, 'bus': 4, 'motor': 7}
+Sun Jan  5 01:24:54 2025 - Highway A1: {'motor': 3}
+Total counts: {'motor': 7, 'car': 1, 'bus': 1}
+Sun Jan  5 01:25:13 2025 - Vo Van Kiet: {'car': 6, 'truck': 1, 'motor': 3, 'bus': 2}
+Total counts: {'car': 15, 'bus': 6, 'motor': 10, 'truck': 1}
+Sun Jan  5 01:25:14 2025 - Highway A1: {'motor': 3, 'truck': 1}
+Total counts: {'motor': 10, 'car': 1, 'bus': 1, 'truck': 1}
+Sun Jan  5 01:26:30 2025 - Highway A1: {'motor': 5}
+Total counts: {'motor': 5}
+Sun Jan  5 01:26:30 2025 - Vo Van Kiet: {'car': 2, 'bus': 1}
+Total counts: {'car': 2, 'bus': 1}
+Sun Jan  5 01:26:50 2025 - Highway A1: {}
+Total counts: {'motor': 5}
+Sun Jan  5 01:26:51 2025 - Vo Van Kiet: {'car': 3, 'motor': 2, 'bus': 1}
+Total counts: {'car': 5, 'bus': 2, 'motor': 2}
