@@ -54,9 +54,7 @@ def detect_vehicles(image_path, model, stride, names, conf_thres=0.25, iou_thres
 # Traffic capture and detection loop
 def capture_and_detect(path, model, stride, names, log_file, lock):
     count = 1
-    total_counts = {}
     directory = "data/images/trial"
-    #detected_directory = "C:/Users/duyng/Desktop/Vehicle_Counting/vehiclecounting/data/images/detected"
     os.makedirs(directory, exist_ok=True)
 
     while True:
@@ -74,18 +72,24 @@ def capture_and_detect(path, model, stride, names, log_file, lock):
             # Detect vehicles and save detected image
             detected_counts = detect_vehicles(image_path, model, stride, names)
 
-            # Update total counts
-            for cls_name, detected_count in detected_counts.items():
-                total_counts[cls_name] = total_counts.get(cls_name, 0) + detected_count
+             # Prepare log entry using `int()` for numeric counts
+            log_parts = []
+            for vehicle, count in detected_counts.items():
+                try:
+                    numeric_count = int(count)  # Ensure count is converted to an integer
+                    log_parts.append(f"{vehicle} {numeric_count}")
+                except ValueError:
+                    print(f"Skipping non-numeric count for {vehicle}: {count}")
+
+            # Log format: image_name: vehicle_type count, ...
+            log_entry = f"{image_name}: " + ", ".join(log_parts) + "\n"
 
             # Write log
             with lock:  # Use lock to avoid race condition
                 with open(log_file, 'a') as log:
-                    log.write(f"{time.ctime()} - {path[1]}: {detected_counts}\n")
-                    log.write(f"Total counts: {total_counts}\n")
-
+                    log.write(log_entry)
             print(f"Loop {count}, {path[1]}: {detected_counts}")
-            print(f"Total counts: {total_counts}")
+            
 
         except Exception as e:
             print(f"Error in {path[1]}: {e}")
@@ -102,6 +106,12 @@ def main():
     paths = [
         ["loc01", "Highway A1", "http://giaothong.hochiminhcity.gov.vn/render/ImageHandler.ashx?id=58afea5dbd82540010390c4d&t=1667011700842"],
         ["loc02", "Vo Van Kiet", "http://giaothong.hochiminhcity.gov.vn:80/render/ImageHandler.ashx?id=56de42f611f398ec0c481296&t=1666752019191"],
+        ["loc03","Vo Chi Cong","http://giaothong.hochiminhcity.gov.vn/render/ImageHandler.ashx?id=5a8269c45058170011f6eae4"],
+        ["loc04","Highway 13 - Pham Van Dong","http://giaothong.hochiminhcity.gov.vn/render/ImageHandler.ashx?id=58affc6017139d0010f35cc8"],
+        ["loc05","Long Thanh - Dau Giay Expressway","http://giaothong.hochiminhcity.gov.vn/render/ImageHandler.ashx?id=5d9de43b766c880017188cb6&t=1667014633438"],
+        ["loc06","Highway 22","http://giaothong.hochiminhcity.gov.vn/render/ImageHandler.ashx?id=589b4379b3bf7600110283c9"],
+        ["loc07","Highway 13 - Highway A1","http://giaothong.hochiminhcity.gov.vn/render/ImageHandler.ashx?id=5874656eb807da0011e33cde&t=1667015665586"],
+        ["loc08","Vo Thi Sau - Dinh Tien Hoang","http://giaothong.hochiminhcity.gov.vn/render/ImageHandler.ashx?id=5a823e425058170011f6eaa4"]
     ]
 
     threads = []
@@ -110,7 +120,6 @@ def main():
         threads.append(thread)
         thread.start()
         time.sleep(0.2)
-
     for thread in threads:
         thread.join()
 
