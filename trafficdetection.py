@@ -73,13 +73,18 @@ def capture_and_detect(path, model, stride, names, log_file, lock):
             detected_counts = detect_vehicles(image_path, model, stride, names)
 
              # Prepare log entry using `int()` for numeric counts
+            vehicle_order = ["car", "motor", "bus", "truck"]
             log_parts = []
-            for vehicle, count in detected_counts.items():
+            '''for vehicle, count in detected_counts.items():
                 try:
                     numeric_count = int(count)  # Ensure count is converted to an integer
                     log_parts.append(f"{vehicle} {numeric_count}")
                 except ValueError:
-                    print(f"Skipping non-numeric count for {vehicle}: {count}")
+                    print(f"Skipping non-numeric count for {vehicle}: {count}")'''
+
+            for vehicle in vehicle_order:
+                if vehicle in detected_counts:
+                    log_parts.append(f"{vehicle} {detected_counts[vehicle]}")
 
             # Log format: image_name: vehicle_type count, ...
             log_entry = f"{image_name}: " + ", ".join(log_parts) + "\n"
