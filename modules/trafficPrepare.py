@@ -1,3 +1,4 @@
+
 import matplotlib.pyplot as plt
 import tkinter as tk
 from tkinter import *
@@ -16,45 +17,55 @@ def sum(array):
   return result
 
 def getTraffic(date, destination):
-  f = open('traffic/'+date+'.txt','r')
-  cars = []
-  giants = []
-  bikes = []
-  for i in range(0,9):
-    cars.append(0)
-    giants.append(0)
-    bikes.append(0)
-  for line in f:
-    x = line.split()
-    temp = ""
-    index = -1
-    meta = x[0]
-    location = meta.split('-')[0]
-    time = meta.split('-')[1]
-    time = time.split('.')[0]
-    time = time.split('_')
-    if (location != destination) and (destination != "all"):
-      continue
+    f = open('traffic/' + date + '.txt', 'r')
+    cars = [0] * 15  # From 6 AM (index 0) to 9 PM (index 14)
+    giants = [0] * 15
+    bikes = [0] * 15
 
-    for i in range(0,len(time)):
-      time[i] = int(time[i])
+    for line in f:
+        parts = line.split(": ")
+        if len(parts) != 2:
+            continue
 
-    if ( (time[3]>=8) and (time[3]<17)):
-      index = time[3] - 8
+        meta, counts_str = parts
+        location = meta.split('-')[0]
+        time_str = meta.split('-')[1].split('.')[0]
+        time_parts = time_str.split('_')
 
-    for part in x:
-      if ("car" in part) or ("boat" in part):
-        cars[index] += int(temp)
-      if ("truck" in part) or ("bus" in part) or ("train" in part):
-        giants[index] += int(temp)
-      if ("motorcycle" in part) or ("bicycle" in part):
-        bikes[index] += int(temp)
-      temp = part
-  # print(cars)
-  # print(giants)
-  # print(bikes)
-  vehicles =[cars,giants,bikes]
-  return vehicles
+        # Skip if destination doesn't match
+        if (location != destination) and (destination != "all"):
+            continue
+
+        # Parse time components
+        try:
+            log_hour = int(time_parts[3])
+        except (ValueError, IndexError):
+            continue
+
+        # Ensure the hour is within 6 AM to 9 PM
+        if 6 <= log_hour < 21:
+            index = log_hour - 6
+        else:
+            continue
+
+        # Parse vehicle counts dynamically
+        counts = counts_str.split(", ")
+        for item in counts:
+            try:
+                vehicle, count = item.rsplit(" ", 1)
+                count = int(count)
+                if "car" in vehicle:
+                    cars[index] += count
+                elif "truck" in vehicle or "bus" in vehicle or "train" in vehicle:
+                    giants[index] += count
+                elif "motor" in vehicle or "bicycle" in vehicle:
+                    bikes[index] += count
+            except ValueError:
+                continue
+
+    f.close()
+    return [cars, giants, bikes]
+
 
 def getDate():
   date = []
@@ -63,19 +74,17 @@ def getDate():
       for file in f:
           if file.endswith(".txt"):
               file = file.strip('.txt')
-              file = '\t\t\t\t'+ file +'-2022'+'\t\t\t\t'
+              file = '\t\t\t\t'+ file +'-2025'+'\t\t\t\t'
               date.append(file)
   return date
 
 locationDict = {
-  "Highway A1 - Long An":"loc01",
-  "Highway 22 - Tay Ninh":"loc06",
-  "Vo Van Kiet - District 5":"loc02",
-  "Cau Bong Intersection":"loc09",
-  "Binh Trieu Intersection":"loc04",
-  "Binh Phuoc Intersection":"loc07",
-  "Linh Xuan Intersection":"loc08",
-  "Phu Mi Bridge ":"loc03",
-  "Long Thanh - Dau Giay":"loc05",
+  "01-Highway A1":"loc01",
+  "02-Vo Van Kiet":"loc02",
+  "03-Vo Chi Cong":"loc03",
+  "04- Highway 13 - Pham Van Dong":"loc04",
+  "05- Long Thanh - Dau Giay Expressway":"loc05",
+  "06 - Highway 22":"loc06",
+  "07- Vo Thi Sau - Dinh Tien Hoang":"loc08",
   "all locations":"all"
 }

@@ -37,11 +37,18 @@ def graphTraffic(date,destination):
   if (count == 1):
     ax1.clear()
     graph_pointer.destroy()
+
   figure1 = plt.Figure(figsize=(6,6), dpi=100)
-  
   figure1.clf()
   ax1 = figure1.add_subplot(111)
-  label = ['08:00\n-9:00', '09:00\n-10:00', '10:00\n-11:00', '11:00\n-12:00', '12:00\n-13:00','13:00\n-14:00','14:00\n-15:00','15:00\n-16:00','16:00\n-17:00']
+
+  label = [
+    '06:00\n-07:00', '07:00\n-08:00','08:00\n-09:00', '09:00\n-10:00', 
+    '10:00\n-11:00', '11:00\n-12:00','12:00\n-13:00', '13:00\n-14:00',
+    '14:00\n-15:00', '15:00\n-16:00','16:00\n-17:00', '17:00\n-18:00', 
+    '18:00\n-19:00', '19:00\n-20:00','20:00\n-21:00'
+]
+
   traffic_data = getTraffic(date,destination)
   car = traffic_data[0];  giant = traffic_data[1];  bike = traffic_data[2]
   df1_data = {'time': label, 'bike': bike, 'car': car, 'giant': giant } 
@@ -60,7 +67,7 @@ def graphTraffic(date,destination):
   ax1.set_title('Traffic at '+ locationTxt + " ["+ date+"]")
   count = 1
   print(traffic_data)
-  analysisTxt = data_analyzing(traffic_data)
+  analysisTxt = traffic_analyze(traffic_data)
   text = Text(window, padx=15, pady=15,height=20, width=25,bg= sidebar_color, fg= sidebar_text, font=("Times New Roman",12))
   text.config(bd = 3)
   text.insert('1.0', analysisTxt)
@@ -72,7 +79,7 @@ def get_content(entry):
 
 def onClick():
     date = get_content(clicked_date).strip('\t')
-    date = date.strip('-2022')
+    date = date.strip('-2025')
     loc = get_content(clicked_loc)
     loc = locationDict[loc]
 
@@ -106,6 +113,6 @@ drop_loc.place(x=sidebar_x+70,y=sidebar_y+50,width = 200,height=30)
 
 button = tk.Button(text = "Graph", command= onClick, cursor="hand2")
 button.place(x=sidebar_x +70,y=sidebar_y+95,width=200,height=45)
-graphTraffic("12-11","all")
+graphTraffic("7-1","all")
 
 window.mainloop()
