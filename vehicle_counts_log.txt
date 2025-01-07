@@ -1,85 +1,272 @@
-Sun Jan  5 01:01:24 2025 - Highway A1: {'person': 1}
-Total counts: {'person': 1}
-Sun Jan  5 01:01:24 2025 - Vo Van Kiet: {'truck': 1, 'stop sign': 2, 'car': 6, 'traffic light': 1}
-Total counts: {'truck': 1, 'stop sign': 2, 'car': 6, 'traffic light': 1}
-Sun Jan  5 01:01:44 2025 - Highway A1: {'person': 1}
-Total counts: {'person': 2}
-Sun Jan  5 01:01:45 2025 - Vo Van Kiet: {'car': 7, 'truck': 1, 'traffic light': 3, 'stop sign': 1}
-Total counts: {'truck': 2, 'stop sign': 3, 'car': 13, 'traffic light': 4}
-Sun Jan  5 01:02:05 2025 - Highway A1: {'person': 1}
-Total counts: {'person': 3}
-Sun Jan  5 01:02:05 2025 - Vo Van Kiet: {'car': 2, 'traffic light': 2, 'stop sign': 1}
-Total counts: {'truck': 2, 'stop sign': 4, 'car': 15, 'traffic light': 6}
-Sun Jan  5 01:02:25 2025 - Highway A1: {'car': 2}
-Total counts: {'person': 3, 'car': 2}
-Sun Jan  5 01:02:26 2025 - Vo Van Kiet: {'stop sign': 2, 'traffic light': 1, 'car': 2, 'truck': 1}
-Total counts: {'truck': 3, 'stop sign': 6, 'car': 17, 'traffic light': 7}
-Sun Jan  5 01:06:41 2025 - Highway A1: {'person': 2, 'motorcycle': 1}
-Total counts: {'person': 2, 'motorcycle': 1}
-Sun Jan  5 01:06:41 2025 - Vo Van Kiet: {'stop sign': 2, 'car': 2, 'truck': 1}
-Total counts: {'stop sign': 2, 'car': 2, 'truck': 1}
-Sun Jan  5 01:07:01 2025 - Highway A1: {'motorcycle': 2, 'truck': 1}
-Total counts: {'person': 2, 'motorcycle': 3, 'truck': 1}
-Sun Jan  5 01:07:01 2025 - Vo Van Kiet: {'car': 7, 'stop sign': 1, 'traffic light': 1}
-Total counts: {'stop sign': 3, 'car': 9, 'truck': 1, 'traffic light': 1}
-Sun Jan  5 01:07:21 2025 - Vo Van Kiet: {'car': 5, 'stop sign': 1, 'traffic light': 3, 'truck': 1}
-Total counts: {'stop sign': 4, 'car': 14, 'truck': 2, 'traffic light': 4}
-Sun Jan  5 01:07:21 2025 - Highway A1: {'truck': 2, 'motorcycle': 2, 'person': 1, 'car': 1}
-Total counts: {'person': 3, 'motorcycle': 5, 'truck': 3, 'car': 1}
-Sun Jan  5 01:07:42 2025 - Vo Van Kiet: {'traffic light': 1, 'car': 2, 'stop sign': 1, 'truck': 1}
-Total counts: {'stop sign': 5, 'car': 16, 'truck': 3, 'traffic light': 5}
-Sun Jan  5 01:07:42 2025 - Highway A1: {'motorcycle': 1, 'person': 2}
-Total counts: {'person': 5, 'motorcycle': 6, 'truck': 3, 'car': 1}
-Sun Jan  5 01:15:24 2025 - Highway A1: {'person': 1, 'motorcycle': 1}
-Total counts: {'person': 1, 'motorcycle': 1}
-Sun Jan  5 01:15:24 2025 - Vo Van Kiet: {'stop sign': 2, 'car': 2, 'truck': 1, 'traffic light': 1}
-Total counts: {'stop sign': 2, 'car': 2, 'truck': 1, 'traffic light': 1}
-Sun Jan  5 01:15:44 2025 - Highway A1: {'car': 1}
-Total counts: {'person': 1, 'motorcycle': 1, 'car': 1}
-Sun Jan  5 01:15:45 2025 - Vo Van Kiet: {'stop sign': 2, 'car': 2, 'truck': 1, 'traffic light': 1}
-Total counts: {'stop sign': 4, 'car': 4, 'truck': 2, 'traffic light': 2}
-Sun Jan  5 01:16:04 2025 - Highway A1: {'truck': 1, 'person': 1}
-Total counts: {'person': 2, 'motorcycle': 1, 'car': 1, 'truck': 1}
-Sun Jan  5 01:16:05 2025 - Vo Van Kiet: {'car': 5, 'stop sign': 2, 'truck': 2, 'traffic light': 1}
-Total counts: {'stop sign': 6, 'car': 9, 'truck': 4, 'traffic light': 3}
-Sun Jan  5 01:16:25 2025 - Highway A1: {'truck': 1, 'person': 1}
-Total counts: {'person': 3, 'motorcycle': 1, 'car': 1, 'truck': 2}
-
---- Final Total Counts ---
-{}
-Sun Jan  5 01:21:02 2025 - Highway A1: {'motorcycle': 1, 'person': 2}
-Total counts: {'motorcycle': 1, 'person': 2}
-Sun Jan  5 01:21:04 2025 - Vo Van Kiet: {'stop sign': 2, 'car': 1, 'traffic light': 1, 'truck': 2}
-Total counts: {'stop sign': 2, 'car': 1, 'traffic light': 1, 'truck': 2}
-Sun Jan  5 01:21:23 2025 - Highway A1: {}
-Total counts: {'motorcycle': 1, 'person': 2}
-Sun Jan  5 01:21:24 2025 - Vo Van Kiet: {'car': 3, 'person': 1, 'truck': 1, 'stop sign': 2, 'motorcycle': 1, 'traffic light': 1}
-Total counts: {'stop sign': 4, 'car': 4, 'traffic light': 2, 'truck': 3, 'person': 1, 'motorcycle': 1}
-Sun Jan  5 01:23:52 2025 - Highway A1: {'motor': 2}
-Total counts: {'motor': 2}
-Sun Jan  5 01:23:53 2025 - Vo Van Kiet: {'car': 2, 'bus': 2, 'motor': 2}
-Total counts: {'car': 2, 'bus': 2, 'motor': 2}
-Sun Jan  5 01:24:13 2025 - Highway A1: {}
-Total counts: {'motor': 2}
-Sun Jan  5 01:24:13 2025 - Vo Van Kiet: {'car': 1, 'bus': 1}
-Total counts: {'car': 3, 'bus': 3, 'motor': 2}
-Sun Jan  5 01:24:33 2025 - Vo Van Kiet: {'car': 2, 'motor': 3, 'bus': 1}
-Total counts: {'car': 5, 'bus': 4, 'motor': 5}
-Sun Jan  5 01:24:34 2025 - Highway A1: {'motor': 2, 'car': 1, 'bus': 1}
-Total counts: {'motor': 4, 'car': 1, 'bus': 1}
-Sun Jan  5 01:24:53 2025 - Vo Van Kiet: {'car': 4, 'motor': 2}
-Total counts: {'car': 9, 'bus': 4, 'motor': 7}
-Sun Jan  5 01:24:54 2025 - Highway A1: {'motor': 3}
-Total counts: {'motor': 7, 'car': 1, 'bus': 1}
-Sun Jan  5 01:25:13 2025 - Vo Van Kiet: {'car': 6, 'truck': 1, 'motor': 3, 'bus': 2}
-Total counts: {'car': 15, 'bus': 6, 'motor': 10, 'truck': 1}
-Sun Jan  5 01:25:14 2025 - Highway A1: {'motor': 3, 'truck': 1}
-Total counts: {'motor': 10, 'car': 1, 'bus': 1, 'truck': 1}
-Sun Jan  5 01:26:30 2025 - Highway A1: {'motor': 5}
-Total counts: {'motor': 5}
-Sun Jan  5 01:26:30 2025 - Vo Van Kiet: {'car': 2, 'bus': 1}
-Total counts: {'car': 2, 'bus': 1}
-Sun Jan  5 01:26:50 2025 - Highway A1: {}
-Total counts: {'motor': 5}
-Sun Jan  5 01:26:51 2025 - Vo Van Kiet: {'car': 3, 'motor': 2, 'bus': 1}
-Total counts: {'car': 5, 'bus': 2, 'motor': 2}
+loc01-2025_01_07_11_20_02.jpg: car 8, motor 6, bus 1
+loc06-2025_01_07_11_20_03.jpg: car 10, motor 5, truck 1
+loc03-2025_01_07_11_20_03.jpg: car 3, motor 1
+loc05-2025_01_07_11_20_03.jpg: car 10, motor 2
+loc04-2025_01_07_11_20_03.jpg: car 10, motor 10, truck 2
+loc02-2025_01_07_11_20_02.jpg: car 6, motor 9, bus 1, truck 2
+loc07-2025_01_07_11_20_03.jpg: car 15, motor 32, truck 1
+loc08-2025_01_07_11_20_04.jpg: car 9, motor 24, bus 1
+loc01-2025_01_07_11_23_01.jpg: car 5, motor 7, truck 1
+loc02-2025_01_07_11_23_01.jpg: car 23, motor 17, truck 2
+loc03-2025_01_07_11_23_01.jpg: car 3, bus 2, truck 3
+loc04-2025_01_07_11_23_02.jpg: car 7, motor 19
+loc05-2025_01_07_11_23_02.jpg: car 6, motor 2
+loc08-2025_01_07_11_23_02.jpg: car 3, motor 24
+loc07-2025_01_07_11_23_02.jpg: car 12, motor 16, truck 1
+loc06-2025_01_07_11_23_02.jpg: car 5, motor 3
+loc01-2025_01_07_11_23_22.jpg: car 2, motor 12, truck 2
+loc05-2025_01_07_11_23_24.jpg: car 5, motor 1, bus 1, truck 1
+loc03-2025_01_07_11_23_23.jpg: car 5, bus 1, truck 5
+loc04-2025_01_07_11_23_24.jpg: car 8, motor 16, truck 1
+loc02-2025_01_07_11_23_23.jpg: car 24, motor 19, bus 1, truck 2
+loc08-2025_01_07_11_23_25.jpg: car 4, motor 39
+loc07-2025_01_07_11_23_26.jpg: car 12, motor 21, truck 1
+loc06-2025_01_07_11_23_26.jpg: car 12, motor 8, truck 1
+loc01-2025_01_07_11_23_45.jpg: car 8, motor 4, truck 3
+loc05-2025_01_07_11_23_45.jpg: car 6, motor 5, truck 1
+loc03-2025_01_07_11_23_45.jpg: car 8, truck 2
+loc04-2025_01_07_11_23_46.jpg: car 8, motor 10
+loc07-2025_01_07_11_23_46.jpg: car 8, motor 20
+loc02-2025_01_07_11_23_46.jpg: car 18, motor 20
+loc08-2025_01_07_11_23_46.jpg: car 7, motor 46
+loc06-2025_01_07_11_23_46.jpg: car 13, motor 14, truck 2
+loc01-2025_01_07_11_24_05.jpg: car 3, motor 8, truck 2
+loc05-2025_01_07_11_24_06.jpg: car 7, motor 2, bus 2, truck 3
+loc03-2025_01_07_11_24_06.jpg: car 8, bus 1, truck 3
+loc04-2025_01_07_11_24_06.jpg: car 10, motor 14, truck 1
+loc02-2025_01_07_11_24_06.jpg: car 17, motor 8, bus 1, truck 3
+loc07-2025_01_07_11_24_06.jpg: car 6, motor 19, bus 1, truck 2
+loc08-2025_01_07_11_24_06.jpg: car 6, motor 35
+loc06-2025_01_07_11_24_06.jpg: car 12, motor 11, bus 1, truck 1
+loc01-2025_01_07_11_24_26.jpg: motor 2, truck 4
+loc05-2025_01_07_11_24_26.jpg: car 4, motor 2
+loc03-2025_01_07_11_24_26.jpg: car 13, motor 2, bus 1, truck 5
+loc08-2025_01_07_11_24_26.jpg: car 4, motor 15
+loc04-2025_01_07_11_24_26.jpg: car 10, motor 24
+loc02-2025_01_07_11_24_26.jpg: car 15, motor 14, bus 1, truck 2
+loc06-2025_01_07_11_24_26.jpg: car 11, motor 12
+loc07-2025_01_07_11_24_26.jpg: car 11, motor 21, bus 3, truck 1
+loc01-2025_01_07_11_24_46.jpg: car 6, motor 29
+loc05-2025_01_07_11_24_46.jpg: car 9, motor 3
+loc03-2025_01_07_11_24_46.jpg: car 4, motor 2, bus 2, truck 2
+loc02-2025_01_07_11_24_46.jpg: car 16, motor 4, bus 2, truck 2
+loc06-2025_01_07_11_24_47.jpg: car 6, motor 8, bus 2, truck 3
+loc04-2025_01_07_11_24_46.jpg: car 11, motor 9, bus 1, truck 2
+loc08-2025_01_07_11_24_46.jpg: car 2, motor 30, truck 1
+loc07-2025_01_07_11_24_47.jpg: car 9, motor 18, bus 2
+loc01-2025_01_07_11_25_06.jpg: car 4, motor 13
+loc05-2025_01_07_11_25_06.jpg: car 5, motor 2, bus 4, truck 2
+loc02-2025_01_07_11_25_07.jpg: car 22, motor 14, truck 1
+loc03-2025_01_07_11_25_07.jpg: car 3, motor 4, bus 2
+loc04-2025_01_07_11_25_07.jpg: car 4, motor 14, truck 1
+loc07-2025_01_07_11_25_07.jpg: car 9, motor 15, bus 2, truck 1
+loc06-2025_01_07_11_25_07.jpg: car 2, motor 4
+loc08-2025_01_07_11_25_07.jpg: car 3, motor 26
+loc01-2025_01_07_11_25_26.jpg: motor 2, bus 1, truck 3
+loc05-2025_01_07_11_25_26.jpg: car 13, motor 1, bus 1, truck 1
+loc02-2025_01_07_11_25_27.jpg: car 20, motor 15, bus 1, truck 3
+loc03-2025_01_07_11_25_27.jpg: car 4, motor 2, truck 2
+loc06-2025_01_07_11_25_27.jpg: car 2, motor 5
+loc04-2025_01_07_11_25_27.jpg: car 9, motor 12
+loc07-2025_01_07_11_25_27.jpg: car 8, motor 23, truck 2
+loc08-2025_01_07_11_25_27.jpg: car 4, motor 13, bus 1
+loc05-2025_01_07_11_25_46.jpg: car 7, motor 2
+loc01-2025_01_07_11_25_46.jpg: car 4, motor 5, bus 1, truck 2
+loc02-2025_01_07_11_25_47.jpg: car 17, motor 27, bus 3, truck 3
+loc03-2025_01_07_11_25_47.jpg: car 4, motor 3, truck 2
+loc06-2025_01_07_11_25_47.jpg: car 12, motor 17
+loc08-2025_01_07_11_25_47.jpg: car 1, motor 30
+loc07-2025_01_07_11_25_47.jpg: car 7, motor 16, truck 1
+loc04-2025_01_07_11_25_47.jpg: car 7, motor 34
+loc01-2025_01_07_11_26_07.jpg: motor 3, truck 2
+loc05-2025_01_07_11_26_07.jpg: car 11, motor 4
+loc03-2025_01_07_11_26_07.jpg: car 8, bus 3, truck 3
+loc04-2025_01_07_11_26_08.jpg: car 9, motor 16, bus 1, truck 2
+loc06-2025_01_07_11_26_08.jpg: car 11, motor 6, bus 1
+loc07-2025_01_07_11_26_08.jpg: car 9, motor 27
+loc08-2025_01_07_11_26_08.jpg: car 1, motor 35
+loc02-2025_01_07_11_26_07.jpg: car 25, motor 12, bus 2, truck 2
+loc01-2025_01_07_11_26_27.jpg: car 8, motor 4, truck 2
+loc05-2025_01_07_11_26_27.jpg: car 10, motor 1, bus 1, truck 4
+loc04-2025_01_07_11_26_28.jpg: car 7, motor 22
+loc06-2025_01_07_11_26_28.jpg: car 5, motor 10
+loc07-2025_01_07_11_26_28.jpg: car 10, motor 21
+loc08-2025_01_07_11_26_28.jpg: car 2, motor 21
+loc02-2025_01_07_11_26_29.jpg: car 20, motor 7, bus 3, truck 4
+loc03-2025_01_07_11_26_28.jpg: car 11, motor 4, bus 5, truck 4
+loc05-2025_01_07_11_26_47.jpg: car 6, motor 1
+loc01-2025_01_07_11_26_47.jpg: car 6, motor 17
+loc04-2025_01_07_11_26_48.jpg: motor 19
+loc06-2025_01_07_11_26_48.jpg: car 3, motor 11, truck 2
+loc07-2025_01_07_11_26_48.jpg: car 11, motor 27, truck 1
+loc08-2025_01_07_11_26_48.jpg: car 6, motor 20
+loc02-2025_01_07_11_26_49.jpg: car 18, motor 8, truck 1
+loc03-2025_01_07_11_26_50.jpg: car 8, motor 4, bus 2, truck 4
+loc01-2025_01_07_11_27_07.jpg: car 5, motor 15
+loc05-2025_01_07_11_27_07.jpg: car 15, motor 2, bus 3, truck 1
+loc04-2025_01_07_11_27_08.jpg: car 7, motor 10
+loc06-2025_01_07_11_27_08.jpg: car 3, motor 5
+loc07-2025_01_07_11_27_08.jpg: car 9, motor 22, truck 1
+loc08-2025_01_07_11_27_09.jpg: car 5, motor 22
+loc02-2025_01_07_11_27_10.jpg: car 8, motor 14, truck 1
+loc03-2025_01_07_11_27_10.jpg: car 6, motor 1, bus 3, truck 3
+loc05-2025_01_07_11_27_28.jpg: car 9, motor 1, truck 1
+loc01-2025_01_07_11_27_28.jpg: car 6, motor 21
+loc04-2025_01_07_11_27_28.jpg: car 3, motor 4, bus 1, truck 1
+loc06-2025_01_07_11_27_29.jpg: car 5, motor 6
+loc08-2025_01_07_11_27_29.jpg: car 2, motor 44
+loc07-2025_01_07_11_27_29.jpg: car 12, motor 32, bus 1, truck 2
+loc03-2025_01_07_11_27_30.jpg: car 9, motor 3, truck 3
+loc02-2025_01_07_11_27_30.jpg: car 22, motor 16, truck 3
+loc05-2025_01_07_11_27_48.jpg: car 7, motor 3, truck 1
+loc04-2025_01_07_11_27_49.jpg: car 10, motor 23, truck 1
+loc06-2025_01_07_11_27_49.jpg: car 5, motor 25, truck 2
+loc08-2025_01_07_11_27_49.jpg: car 1, motor 28, bus 1, truck 1
+loc07-2025_01_07_11_27_49.jpg: car 5, motor 27, bus 1, truck 1
+loc03-2025_01_07_11_27_50.jpg: car 5, motor 2, truck 5
+loc01-2025_01_07_11_27_48.jpg: car 5, motor 3, truck 4
+loc02-2025_01_07_11_27_54.jpg: car 21, motor 19, truck 3
+loc04-2025_01_07_11_28_09.jpg: car 14, motor 13, truck 1
+loc06-2025_01_07_11_28_09.jpg: car 12, motor 8, bus 1, truck 1
+loc05-2025_01_07_11_28_08.jpg: car 7, bus 3, truck 2
+loc07-2025_01_07_11_28_10.jpg: car 10, motor 17, truck 1
+loc08-2025_01_07_11_28_10.jpg: car 4, motor 18, bus 2
+loc03-2025_01_07_11_28_10.jpg: car 4, motor 4, bus 3, truck 1
+loc01-2025_01_07_11_28_10.jpg: car 8, motor 5, truck 3
+loc02-2025_01_07_11_28_14.jpg: car 15, motor 16, bus 1, truck 4
+loc04-2025_01_07_11_28_29.jpg: car 8, motor 10, truck 4
+loc06-2025_01_07_11_28_30.jpg: car 9, motor 5
+loc08-2025_01_07_11_28_30.jpg: car 6, motor 26
+loc05-2025_01_07_11_28_30.jpg: car 7, motor 1, truck 1
+loc07-2025_01_07_11_28_30.jpg: car 16, motor 12, bus 2
+loc03-2025_01_07_11_28_30.jpg: car 4, motor 1, truck 2
+loc01-2025_01_07_11_28_31.jpg: car 4, motor 3, bus 1, truck 4
+loc02-2025_01_07_11_28_34.jpg: car 22, motor 5, truck 6
+loc04-2025_01_07_11_28_49.jpg: car 12, motor 8, bus 2
+loc06-2025_01_07_11_28_50.jpg: car 2, motor 11, bus 1
+loc05-2025_01_07_11_28_50.jpg: car 4, truck 1
+loc07-2025_01_07_11_28_50.jpg: car 13, motor 13, bus 1, truck 1
+loc08-2025_01_07_11_28_50.jpg: car 5, motor 43
+loc03-2025_01_07_11_28_50.jpg: car 3, bus 1, truck 3
+loc01-2025_01_07_11_28_51.jpg: car 3, motor 9, bus 1, truck 2
+loc02-2025_01_07_11_28_55.jpg: car 18, motor 14, truck 7
+loc04-2025_01_07_11_29_09.jpg: car 4, motor 15
+loc06-2025_01_07_11_29_10.jpg: car 5, motor 5, bus 1
+loc05-2025_01_07_11_29_10.jpg: car 7, motor 2
+loc03-2025_01_07_11_29_11.jpg: car 4, motor 1, bus 2, truck 3
+loc08-2025_01_07_11_29_10.jpg: car 11, motor 26
+loc07-2025_01_07_11_29_10.jpg: car 11, motor 24, bus 1
+loc01-2025_01_07_11_29_11.jpg: car 3, motor 8, truck 1
+loc02-2025_01_07_11_29_16.jpg: car 18, motor 6, bus 1, truck 2
+loc04-2025_01_07_11_29_30.jpg: car 4, motor 23
+loc06-2025_01_07_11_29_30.jpg: car 3, motor 7
+loc03-2025_01_07_11_29_31.jpg: car 8, motor 1, truck 3
+loc05-2025_01_07_11_29_31.jpg: car 9, motor 1, truck 2
+loc08-2025_01_07_11_29_31.jpg: car 6, motor 26, bus 1
+loc07-2025_01_07_11_29_31.jpg: car 10, motor 18, bus 1
+loc01-2025_01_07_11_29_31.jpg: car 5, motor 15, truck 2
+loc02-2025_01_07_11_29_36.jpg: car 15, motor 13, bus 1, truck 3
+loc04-2025_01_07_11_29_50.jpg: car 6, motor 24, bus 1
+loc06-2025_01_07_11_29_50.jpg: car 4, motor 24, truck 2
+loc03-2025_01_07_11_29_51.jpg: car 6, motor 1, bus 1, truck 1
+loc08-2025_01_07_11_29_51.jpg: car 4, motor 33
+loc07-2025_01_07_11_29_51.jpg: car 12, motor 19
+loc05-2025_01_07_11_29_51.jpg: car 6, motor 6
+loc01-2025_01_07_11_29_51.jpg: car 6, motor 9
+loc02-2025_01_07_11_29_57.jpg: car 9, motor 15, bus 1, truck 4
+loc04-2025_01_07_11_30_10.jpg: car 10, motor 15, bus 1
+loc06-2025_01_07_11_30_11.jpg: car 8, motor 7, truck 2
+loc03-2025_01_07_11_30_11.jpg: car 7, motor 2, truck 5
+loc08-2025_01_07_11_30_11.jpg: car 8, motor 24, truck 1
+loc07-2025_01_07_11_30_12.jpg: car 6, motor 14
+loc05-2025_01_07_11_30_12.jpg: car 10, motor 1
+loc01-2025_01_07_11_30_12.jpg: car 9, motor 12, truck 2
+loc02-2025_01_07_11_30_17.jpg: car 11, motor 17, bus 1, truck 5
+loc04-2025_01_07_11_30_31.jpg: car 5, motor 20
+loc06-2025_01_07_11_30_31.jpg: car 7, motor 13, bus 1
+loc03-2025_01_07_11_30_31.jpg: car 9, truck 5
+loc08-2025_01_07_11_30_32.jpg: car 6, motor 48
+loc01-2025_01_07_11_30_32.jpg: car 4, motor 2, truck 3
+loc07-2025_01_07_11_30_32.jpg: car 9, motor 16
+loc05-2025_01_07_11_30_32.jpg: car 4, motor 6, bus 1, truck 1
+loc02-2025_01_07_11_30_37.jpg: car 7, motor 24, bus 2, truck 2
+loc04-2025_01_07_11_30_51.jpg: car 11, motor 18
+loc06-2025_01_07_11_30_51.jpg: car 3, motor 9
+loc03-2025_01_07_11_30_52.jpg: car 3, truck 1
+loc08-2025_01_07_11_30_52.jpg: car 4, motor 20
+loc07-2025_01_07_11_30_52.jpg: car 10, motor 15, bus 1
+loc05-2025_01_07_11_30_52.jpg: car 5, motor 1, bus 2, truck 1
+loc01-2025_01_07_11_30_52.jpg: car 2, motor 10, bus 1, truck 2
+loc02-2025_01_07_11_30_57.jpg: car 24, motor 12, bus 2, truck 1
+loc04-2025_01_07_11_31_11.jpg: car 7, motor 32, truck 1
+loc06-2025_01_07_11_31_11.jpg: car 4, motor 3, truck 2
+loc03-2025_01_07_11_31_12.jpg: car 10, motor 3, bus 1, truck 4
+loc08-2025_01_07_11_31_12.jpg: car 3, motor 21
+loc07-2025_01_07_11_31_12.jpg: car 14, motor 15
+loc05-2025_01_07_11_31_12.jpg: car 11, motor 3, bus 1, truck 3
+loc01-2025_01_07_11_31_12.jpg: car 7, motor 23, truck 1
+loc02-2025_01_07_11_31_18.jpg: car 17, motor 7, bus 1, truck 2
+loc06-2025_01_07_11_31_31.jpg: car 4, motor 5
+loc04-2025_01_07_11_31_31.jpg: car 7, motor 17, bus 1
+loc03-2025_01_07_11_31_32.jpg: car 5, motor 1, truck 2
+loc08-2025_01_07_11_31_32.jpg: car 5, motor 27, truck 1
+loc07-2025_01_07_11_31_32.jpg: car 16, motor 13
+loc01-2025_01_07_11_31_32.jpg: car 9, motor 14, truck 1
+loc05-2025_01_07_11_31_32.jpg: car 15, truck 3
+loc02-2025_01_07_11_31_38.jpg: car 16, motor 14, truck 1
+loc06-2025_01_07_11_31_52.jpg: car 3, motor 6
+loc04-2025_01_07_11_31_52.jpg: car 6, motor 14
+loc03-2025_01_07_11_31_52.jpg: car 4, motor 6, bus 2, truck 2
+loc08-2025_01_07_11_31_52.jpg: car 1, motor 25
+loc07-2025_01_07_11_31_52.jpg: car 12, motor 14
+loc01-2025_01_07_11_31_53.jpg: car 6, motor 8, bus 1, truck 1
+loc05-2025_01_07_11_31_53.jpg: car 7, motor 3, truck 1
+loc02-2025_01_07_11_31_58.jpg: car 11, motor 20, bus 1, truck 1
+loc04-2025_01_07_11_32_12.jpg: car 11, motor 12
+loc06-2025_01_07_11_32_12.jpg: car 11, motor 8, truck 1
+loc08-2025_01_07_11_32_12.jpg: car 5, motor 24, bus 1, truck 1
+loc03-2025_01_07_11_32_12.jpg: car 4, motor 2, bus 2, truck 3
+loc07-2025_01_07_11_32_13.jpg: car 14, motor 29
+loc01-2025_01_07_11_32_13.jpg: car 3, motor 17, bus 1, truck 1
+loc05-2025_01_07_11_32_13.jpg: car 10, motor 2, bus 2, truck 1
+loc02-2025_01_07_11_32_19.jpg: car 11, motor 15, bus 1, truck 2
+loc04-2025_01_07_11_32_32.jpg: car 8, motor 14
+loc06-2025_01_07_11_32_32.jpg: car 9, motor 16, bus 1, truck 1
+loc03-2025_01_07_11_32_33.jpg: car 4, motor 1, bus 2, truck 4
+loc08-2025_01_07_11_32_33.jpg: car 7, motor 29
+loc07-2025_01_07_11_32_33.jpg: car 10, motor 9, bus 1
+loc05-2025_01_07_11_32_33.jpg: car 6, motor 1, bus 1
+loc01-2025_01_07_11_32_33.jpg: car 3, motor 30
+loc02-2025_01_07_11_32_39.jpg: car 13, motor 16, truck 4
+loc04-2025_01_07_11_32_52.jpg: car 12, motor 25, bus 1, truck 1
+loc06-2025_01_07_11_32_52.jpg: car 4, motor 6, truck 2
+loc03-2025_01_07_11_32_53.jpg: car 1, motor 1, truck 2
+loc08-2025_01_07_11_32_53.jpg: car 4, motor 45, bus 1, truck 1
+loc07-2025_01_07_11_32_53.jpg: car 16, motor 14, bus 1, truck 1
+loc05-2025_01_07_11_32_53.jpg: car 7, motor 2, bus 1, truck 1
+loc01-2025_01_07_11_32_53.jpg: car 9, motor 7
+loc02-2025_01_07_11_32_59.jpg: car 18, motor 12, truck 6
+loc06-2025_01_07_11_33_13.jpg: car 4, motor 4, bus 1
+loc04-2025_01_07_11_33_12.jpg: car 10, motor 24
+loc03-2025_01_07_11_33_13.jpg: car 6, motor 1, truck 5
+loc08-2025_01_07_11_33_13.jpg: car 3, motor 21
+loc05-2025_01_07_11_33_13.jpg: car 9, motor 5
+loc07-2025_01_07_11_33_13.jpg: car 19, motor 12, truck 1
+loc01-2025_01_07_11_33_13.jpg: car 3, motor 3, truck 4
+loc02-2025_01_07_11_33_19.jpg: car 27, motor 9, bus 1, truck 2
+loc06-2025_01_07_11_33_33.jpg: car 1, motor 5
+loc04-2025_01_07_11_33_33.jpg: car 4, motor 9
+loc03-2025_01_07_11_33_33.jpg: car 6, motor 4, bus 3, truck 5
+loc08-2025_01_07_11_33_33.jpg: car 2, motor 23
+loc07-2025_01_07_11_33_33.jpg: car 15, motor 15, bus 1
+loc05-2025_01_07_11_33_33.jpg: car 11, motor 2, bus 1, truck 2
+loc01-2025_01_07_11_33_33.jpg: car 4, motor 4, truck 1
+loc02-2025_01_07_11_33_39.jpg: car 16, motor 4, bus 1, truck 2
+loc06-2025_01_07_11_33_53.jpg: car 1, motor 4
+loc04-2025_01_07_11_33_53.jpg: car 8, motor 14
+loc03-2025_01_07_11_33_53.jpg: car 1, motor 2, bus 1, truck 1
+loc08-2025_01_07_11_33_53.jpg: car 7, motor 21, truck 1
+loc07-2025_01_07_11_33_54.jpg: car 8, motor 30
+loc01-2025_01_07_11_33_54.jpg: car 2, motor 3, bus 1, truck 3
+loc05-2025_01_07_11_33_54.jpg: car 8, motor 5
+loc02-2025_01_07_11_33_59.jpg: car 10, motor 6, bus 1, truck 4
